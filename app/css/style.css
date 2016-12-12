@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 50%;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 1.5em auto;
+  color: #323223;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul .inner {
+  padding: 0;
+  overflow: hidden;
+  display: none;
+}
+ul li {
+  margin: 7px 0;
+}
+ul li .toggle {
+  width: 100%;
+  display: block;
+  background: rgba(255, 125, 0, 0.28);
+  padding: .75em;
+  cursor: pointer;
+  transition: background .7 ease;
+}
+ul li .toggle:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
